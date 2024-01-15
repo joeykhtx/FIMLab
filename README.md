@@ -28,8 +28,9 @@ This snip shows the two options (A and B) with the a test of input output at the
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Make a new function that calculates the hashfile: <br/>
+Line 16 tests the funtion demonstrating an output showing the hash of the file.
+<img src="https://i.imgur.com/zX32HrY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
@@ -59,7 +60,8 @@ Observe the wiped disk:  <br/>
 <h2>Shortcuts Learned</h2>
 
 - <b>-eq: Equal in Powershell</b>
-- <b>.ToUpper: Reads input as Uppercase in Powershell</b> 
+- <b>.ToUpper: Reads input as Uppercase in Powershell</b>
+- <b>Get-Command *Hash*: Shows the funtion and command for the Get command</b>
 
 
 <!--
