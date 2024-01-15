@@ -33,12 +33,13 @@ Line 16 tests the funtion demonstrating an output showing the hash of the file.
 <img src="https://i.imgur.com/zX32HrY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Write out the rule for Option A:  <br/>
+This option collects all files in target folder and calculates the hash for them. It then stores the information output into the "baseline.txt file.  <br/>
+<img src="https://i.imgur.com/PthvisR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here we added a function that runs prior to the option of collecting a new baseline:  <br/>
+<img src="https://i.imgur.com/cBrJMfT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
