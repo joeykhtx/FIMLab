@@ -16,13 +16,16 @@ With this lab we gain a better understanding of what integrity means in Cybersec
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+In Powershell ISE, create a script that asks "What would you like to do?": <br/>
+- Here we have the question and two answers</b> 
+- Save and test script with Read-Host. Read-Host allowed us to read inputs in from the command line</b> 
+<img src="https://i.imgur.com/TuUqRo5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create the two answers:  <br/>
+This snip shows the two options (A and B) with the a test of input output at the shell level.
+<img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
@@ -44,6 +47,20 @@ Sanitization complete:  <br/>
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h2>Lessons Learned</h2>
+
+- <b>The loop process of scanning and remediating to manage vulnerabilities</b>
+
+<h2>Brush Up</h2>
+
+- <b>Powershell Scripting </b>
+
+<h2>Shortcuts Learned</h2>
+
+- <b>-eq: Equal in Powershell</b>
+- <b>.ToUpper: Reads input as Uppercase in Powershell</b> 
+
 
 <!--
  ```diff
