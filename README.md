@@ -28,7 +28,7 @@ This snip shows the two options (A and B) with the a test of input output at the
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Make a new function that calculates the hashfile: <br/>
+Make a new function that calculates the hash file: <br/>
 Line 16 tests the funtion demonstrating an output showing the hash of the file.
 <img src="https://i.imgur.com/zX32HrY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -42,7 +42,7 @@ Here we added a function that runs prior to the option of collecting a new basel
 <img src="https://i.imgur.com/cBrJMfT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+Load all files from baseline.txt and store in our dictionary:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -52,7 +52,7 @@ Observe the wiped disk:  <br/>
 
 <h2>Lessons Learned</h2>
 
-- <b>The loop process of scanning and remediating to manage vulnerabilities</b>
+- <b>Dictionary - Data structure in language. Holds the key (file path) and value (corresponding hash) </b>
 
 <h2>Brush Up</h2>
 
@@ -63,6 +63,7 @@ Observe the wiped disk:  <br/>
 - <b>-eq: Equal in Powershell</b>
 - <b>.ToUpper: Reads input as Uppercase in Powershell</b>
 - <b>Get-Command *Hash*: Shows the funtion and command for the Get command</b>
+- <b>.split(""): Splits command by the character inbetween the quotation marks. </b>
 
 
 <!--
