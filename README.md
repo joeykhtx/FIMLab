@@ -24,7 +24,7 @@ In Powershell ISE, create a script that asks "What would you like to do?": <br/>
 <br />
 <br />
 Create the two answers:  <br/>
-This snip shows the two options (A and B) with the a test of input output at the shell level.
+This snip shows the two options (A and B) with the a test of input output at the shell level. <br/>
 <img src="https://i.imgur.com/qNa1AR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -48,8 +48,20 @@ The dictionary will store all the updated keys and values. In our case the keys 
 <img src="https://i.imgur.com/vMRG7lr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Here we added an infine loop that sleeps and checks every second to see if the files have changed by using a while loop: 
+<br/>
+The goal was to create a notification by printing something to the screen if any values was to change.
+<img src="https://i.imgur.com/F38jlET.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+We then create a loop through each target file. This will then calculate the hash and compare the file|hash to what the baseline is then notify the hash is changed:<br/>
+<img src="https://i.imgur.com/Cb8oGKB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create a functions that checks if any of the files have been deleted. This would test the paths of the keys in the baseline. If any of those come back false then that would trigger an alert.
+<img src="https://i.imgur.com/F38jlET.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
 </p>
 
 <h2>Lessons Learned</h2>
