@@ -43,8 +43,9 @@ This funtion will get rid of the baseline.txt file in preparations to an updated
 <img src="https://i.imgur.com/cBrJMfT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Load all files from baseline.txt and store in our dictionary:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create our dictionary. Load all files from baseline.txt and store in our dictionary:  <br/>
+The dictionary will store all the updated keys and values. In our case the keys were the file paths and the values were the hashes that corresponds to the files. In this example, we were able to test it by running the selection of line 51 ($fileHashDictionary.Keys or $fileHashDictionary.Values) and viewing the output in the console.
+<img src="https://i.imgur.com/vMRG7lr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
