@@ -38,7 +38,8 @@ This option collects all files in target folder and calculates the hash for them
 <img src="https://i.imgur.com/PthvisR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Here we added a function that runs prior to the option of collecting a new baseline:  <br/>
+Here we added a function that runs prior to the option of collecting a new baseline:<br/>
+This funtion will get rid of the baseline.txt file in preparations to an updated baseline.txt file.
 <img src="https://i.imgur.com/cBrJMfT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
